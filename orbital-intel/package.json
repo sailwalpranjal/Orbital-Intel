@@ -1,0 +1,49 @@
+{
+  "name": "orbital-intel",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "lucide-react": "^0.312.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.0",
+    "three": "^0.160.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.1.0",
+    "postcss": "^8.4.32",
+    "source-map-explorer": "^2.5.3",
+    "tailwindcss": "^3.3.6"
+  }
+}
